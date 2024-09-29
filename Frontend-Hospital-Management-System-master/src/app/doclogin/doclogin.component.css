@@ -1,0 +1,28 @@
+.card:hover{
+    background-color: rgb(69, 2, 72);
+    color: rgb(76, 76, 241);
+   
+    box-shadow: rgb(104, 3, 97);
+    transition-duration: 2000ms;
+    .btn{
+        background-color: black;
+        color: white;
+        transition-duration: 2000ms;
+    }
+}
+.card{
+    border: none;
+    border-radius: 30px;
+    width: 500px;
+    padding: 40px;
+    top: 40%;
+    left: 30%;
+    transform: translate(30%, -25%); 
+    background: rgb(17, 128, 128);
+    justify-content: center;
+    color: navy;
+    justify-items: center;
+    box-shadow: 10px 10px 10px rgb(3, 125, 147);
+    box-sizing: border-box;
+    
+}

@@ -1,0 +1,39 @@
+
+
+.card{
+    border: none;
+    border-radius: 30px;
+    width: 500px;
+    padding: 40px;
+    top: 40%;
+    left: 30%;
+    transform: translate(30%, -25%); 
+    background: rgb(1, 68, 68);
+    justify-content: center;
+    color: rgb(23, 23, 235);
+    justify-items: center;
+    box-shadow: 10px 10px 10px rgb(3, 10, 90);
+    
+    
+}
+
+.card:hover{
+    background-color: rgb(1, 16, 30);
+    color: rgb(3, 30, 138);
+    transition-property: all;
+
+    transition-duration: 2000ms;
+    
+    .btn{
+        background-color: black;
+        color: white;
+        transition-duration: 2000ms;
+    }
+    .btn:hover{
+        background-color: aqua;
+        color:black;
+        transition-delay: 100ms;
+    }
+    
+}
+
